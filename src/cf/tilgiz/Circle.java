@@ -6,6 +6,6 @@ public class Circle extends Shape{
     @Override
     public void draw() {
         System.out.println("Круг");
-        System.out.println("x = " + x);
+        System.out.println("x = " + this.x);
     }
 }
